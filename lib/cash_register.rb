@@ -29,14 +29,7 @@ class CashRegister
 
   def void_last_transaction
     self.total - self.last_transaction
-    
+
   end
 
 end
-
-
-noodles = CashRegister.new(15)
-
-noodles.add_item("noodles", 18, 3)
-
-noodles.last_transaction
