@@ -31,5 +31,3 @@ class CashRegister
     self.total - self.last_transaction
 
   end
-
-end
