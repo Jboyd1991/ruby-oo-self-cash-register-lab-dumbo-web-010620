@@ -34,8 +34,8 @@ class CashRegister
 end
 
 
-# noodles = CashRegister.new(15)
-#
-# noodles.add_item("noodles", 18, 3)
-#
-# noodles.last_transaction
+noodles = CashRegister.new(15)
+
+noodles.add_item("noodles", 18, 3)
+
+noodles.last_transaction
